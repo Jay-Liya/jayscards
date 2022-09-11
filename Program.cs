@@ -14,6 +14,29 @@ class MainClass {
 
         deck = clubs.Concat(diamonds).Concat(hearts).Concat(spades).ToList();
 
+        Console.WriteLine("\n>> Please type your name and press enter key.");
+        string name = Console.ReadLine()!;
+        Console.WriteLine(name + " vs ComputerBot");
+
+        string key = "", playerCard = "", computerCard = "";
+        int playerScore = 0, computerScore = 0;
+
+        // Repeat three rounds
+        for(int i=1; i<4 ; i++) {
+
+            Console.WriteLine("Press Enter key to start round " + i);
+            key = Console.ReadLine()!;
+
+            playerCard = getCard();
+            computerCard = getCard();
+
+            playerScore += getPoint(playerCard);
+            computerScore += getPoint(computerCard);
+
+            Console.WriteLine("\t\t\t" + name + "\t\tComputerBot");
+            Console.WriteLine("\t\t\t" + playerCard + "\t\t" + computerCard);
+            Console.WriteLine("Score after round " + i + ":\t" + playerScore + "\t\t" + computerScore);
+        }
     } // Main function ends
 
     // Populate the deck
