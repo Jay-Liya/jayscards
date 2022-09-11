@@ -1,0 +1,15 @@
+C:\Users\Justin\Source\jayscards\bin\MCD\Debug\net6.0\jayscards.exe
+C:\Users\Justin\Source\jayscards\bin\MCD\Debug\net6.0\jayscards.deps.json
+C:\Users\Justin\Source\jayscards\bin\MCD\Debug\net6.0\jayscards.runtimeconfig.json
+C:\Users\Justin\Source\jayscards\bin\MCD\Debug\net6.0\jayscards.dll
+C:\Users\Justin\Source\jayscards\bin\MCD\Debug\net6.0\ref\jayscards.dll
+C:\Users\Justin\Source\jayscards\bin\MCD\Debug\net6.0\jayscards.pdb
+C:\Users\Justin\Source\jayscards\obj\MCD\Debug\net6.0\jayscards.csproj.AssemblyReference.cache
+C:\Users\Justin\Source\jayscards\obj\MCD\Debug\net6.0\jayscards.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Justin\Source\jayscards\obj\MCD\Debug\net6.0\jayscards.AssemblyInfoInputs.cache
+C:\Users\Justin\Source\jayscards\obj\MCD\Debug\net6.0\jayscards.AssemblyInfo.cs
+C:\Users\Justin\Source\jayscards\obj\MCD\Debug\net6.0\jayscards.csproj.CoreCompileInputs.cache
+C:\Users\Justin\Source\jayscards\obj\MCD\Debug\net6.0\jayscards.dll
+C:\Users\Justin\Source\jayscards\obj\MCD\Debug\net6.0\ref\jayscards.dll
+C:\Users\Justin\Source\jayscards\obj\MCD\Debug\net6.0\jayscards.pdb
+C:\Users\Justin\Source\jayscards\obj\MCD\Debug\net6.0\jayscards.genruntimeconfig.cache
