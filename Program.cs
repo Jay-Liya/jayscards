@@ -19,7 +19,7 @@ class MainClass {
         Console.WriteLine(name + " vs ComputerBot");
 
         string key = "", playerCard = "", computerCard = "";
-        int playerScore = 0, computerScore = 0;
+        int difference, playerScore = 0, computerScore = 0;
 
         // Repeat three rounds
         for(int i=1; i<4 ; i++) {
@@ -36,6 +36,18 @@ class MainClass {
             Console.WriteLine("\t\t\t" + name + "\t\tComputerBot");
             Console.WriteLine("\t\t\t" + playerCard + "\t\t" + computerCard);
             Console.WriteLine("Score after round " + i + ":\t" + playerScore + "\t\t" + computerScore);
+        }
+
+        difference = playerScore - computerScore;
+
+        if(difference > 0) {
+            Console.WriteLine("Congratulations " + name + ", you are the winner.");
+        }
+        else if (difference < 0) {
+            Console.WriteLine( name + ", you are not the winner. Try again.");
+        }
+        else {
+            Console.WriteLine( name + ", you have tied.");
         }
     } // Main function ends
 
