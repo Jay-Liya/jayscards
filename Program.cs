@@ -20,7 +20,7 @@ class MainClass {
     public static List<string> Cards(string symbol) {
 
         List<string> cards = new List<string> ();
-        
+
         for(int i=2; i<11; i++) {
             cards.Add(symbol + " " + i);
         }
@@ -31,5 +31,16 @@ class MainClass {
 
         return cards;
     }// Cards function ends
+
+    // Getting a card from deck
+    public static string getCard() {
+        // Shuffle cards
+        Random random = new Random();
+        deck = deck.OrderBy(x => random.Next()).ToList();
+        // Get the first card after shuffle
+        string card = deck[1];
+        deck.RemoveAt(1);
+        return card;
+    }// getCard function ends
 
 }// MainClass ends
