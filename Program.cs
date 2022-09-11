@@ -43,4 +43,30 @@ class MainClass {
         return card;
     }// getCard function ends
 
+    // Get points for the card
+    public static int getPoint(string card) {
+
+        int point;
+        string[] splitted = card.Split(" ");
+
+        switch (splitted[1]) {
+        case "Jack":
+            point = 10;
+            break;
+        case "Queen":
+            point = 10;
+            break;
+        case "King":
+            point = 10;
+            break;
+        case "Ace":
+            point = 11;
+            break;
+        default:
+            point = Int32.Parse(splitted[1]);
+            break;
+        }
+        return point;
+    }// getPoint function ends
+
 }// MainClass ends
